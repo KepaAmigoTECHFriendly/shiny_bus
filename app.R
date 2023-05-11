@@ -247,7 +247,7 @@ server <- function(input, output, session) {
       # Referencia de L - V
       df_referencia_L_V <-  datos$df_referencia_L_V
       # Escritura CSV en APP SHINY
-      write.csv2(df_referencia_L_V,"REFERENCIA_paradas_bus_plasencia_L_V.csv", row.names = FALSE)
+      #write.table(df_referencia_L_V,"REFERENCIA_paradas_bus_plasencia_L_V.csv", row.names = FALSE)
       # Escritura CSV en CARPETA COMPARTIDA para programa tiempos de llegada
       df_csv <- df_referencia_L_V[,c("id","Nombre_plataforma","latitud","longitud","linea_1","linea_2","linea_3","sentido")]
       colnames(df_csv)[2] <- "name"
@@ -256,7 +256,7 @@ server <- function(input, output, session) {
       # Referencia de S - D - F
       df_referencia_S_D_F <-  datos$df_referencia_S_D_F
       # Escritura CSV en APP SHINY
-      # write.csv(df_referencia_S_D_F,"/srv/shiny-server/shiny_bus/REFERENCIA_paradas_bus_plasencia_S_D_F.csv", row.names = FALSE)
+      write.table(df_referencia_S_D_F,"REFERENCIA_paradas_bus_plasencia_S_D_F.csv", row.names = FALSE)
       # Escritura CSV en CARPETA COMPARTIDA para programa tiempos de llegada
       df_csv <- df_referencia_S_D_F[,c("id","Nombre_plataforma","latitud","longitud","linea_1","linea_2","linea_3","sentido")]
       colnames(df_csv)[2] <- "name"
