@@ -18,7 +18,7 @@ library(lubridate)
 # ------------------------------------------------------------------------------
 
 cuerpo <- '{"username":"kepa@techfriendly.es","password":"kepatech"}'
-post <- httr::POST(url = "https://plataforma.plasencia.es/api/auth/login",
+post <- httr::POST(url = "http://plataforma:9090/api/auth/login",
                    add_headers("Content-Type"="application/json","Accept"="application/json"),
                    body = cuerpo,
                    verify= FALSE,
@@ -37,7 +37,7 @@ df_referencia_paradas_S_D_F <- read.csv("REFERENCIA_paradas_bus_plasencia_S_D_F.
 # TIEMPOS
 # 1 - Número bus
 # Get dispositivos plataforma
-url_thb <- "https://plataforma.plasencia.es/api/tenant/devices?pageSize=10000&page=0"
+url_thb <- "http://plataforma:9090/api/tenant/devices?pageSize=10000&page=0"
 peticion <- GET(url_thb, add_headers("Content-Type"="application/json","Accept"="application/json","X-Authorization"=auth_thb))
 df <- jsonlite::fromJSON(rawToChar(peticion$content))
 df <- as.data.frame(df)
@@ -49,7 +49,7 @@ numero_bus <- c()
 keys <- URLencode(c("Número"))
 for(i in 1:length(ids_gps)){
 
-  url_gps <- paste("https://plataforma.plasencia.es/api/plugins/telemetry/DEVICE/",ids_gps[i],"/values/attributes?",keys,sep = "")
+  url_gps <- paste("http://plataforma:9090/api/plugins/telemetry/DEVICE/",ids_gps[i],"/values/attributes?",keys,sep = "")
   peticion <- GET(url_gps, add_headers("Content-Type"="application/json","Accept"="application/json","X-Authorization"=auth_thb))
   # Tratamiento datos. De raw a dataframe
   df <- jsonlite::fromJSON(rawToChar(peticion$content))
@@ -79,7 +79,7 @@ ui <- fluidPage(
     tags$style("@import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);"),  # Importación iconos Font awesome
 
     titlePanel(title=div(style = "display: inline;",
-                         a(href="https://plataforma.plasencia.es",
+                         a(href="http://plataforma:9090",
                            img(src="img/logo_plasencia.png",style = 'width: 100px; high: 200px; display: inline;')
                          )
     )),
@@ -347,7 +347,7 @@ server <- function(input, output, session) {
     fecha_2 <- format(as.numeric(as.POSIXct(fecha_2))*1000,scientific = F)
 
     keys <- URLencode(c("lat,lon,spe"))
-    url_thb_fechas <- paste("https://plataforma.plasencia.es/api/plugins/telemetry/DEVICE/",id_dispositivo,"/values/timeseries?limit=10000&keys=",keys,"&startTs=",fecha_1,"&endTs=",fecha_2,sep = "")
+    url_thb_fechas <- paste("http://plataforma:9090/api/plugins/telemetry/DEVICE/",id_dispositivo,"/values/timeseries?limit=10000&keys=",keys,"&startTs=",fecha_1,"&endTs=",fecha_2,sep = "")
     peticion <- GET(url_thb_fechas, add_headers("Content-Type"="application/json","Accept"="application/json","X-Authorization"=auth_thb))
 
     # Tratamiento datos. De raw a dataframe
