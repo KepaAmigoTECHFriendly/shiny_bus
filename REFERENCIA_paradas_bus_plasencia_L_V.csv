@@ -1,0 +1,120 @@
+"Nombre_plataforma","Nombre","id","latitud","longitud","linea_1","linea_2","linea_3","orden_linea_1","orden_linea_2","orden_linea_3","orden_linea_1_subida","orden_linea_1_bajada","orden_linea_2_subida","orden_linea_2_bajada","orden_linea_3_subida","orden_linea_3_bajada","sentido","L1_horario_1er_servicio_D","L1_horario_1er_servicio_L_V","L1_horario_1er_servicio_S","L2_horario_1er_servicio_D","L2_horario_1er_servicio_L_V","L2_horario_1er_servicio_S","L3_horario_1er_servicio_D","L3_horario_1er_servicio_L_V","L3_horario_1er_servicio_S"
+"Ambulatorio Luis de Toro_bajada","Ambulatorio Luis de Toro",1,40.0330755,-6.0847262,1,1,0,18,12,NA,NA,NA,NA,NA,NA,NA,0,"07:46:00","07:46:00","07:46:00","10:16:00","08:16:00","08:06:00",NA,NA,NA
+"Av. España-Cementerio_subida","Av. España-Cementerio",4,40.020742,-6.098653,1,0,1,6,NA,4,NA,NA,NA,NA,NA,NA,1,"07:36:00","07:36:00","07:36:00",NA,NA,NA,"07:24:00","07:19:00","08:04:00"
+"Avda. de la Vera_subida","Avda. de la Vera",7,40.0314103,-6.0844593,0,0,1,NA,NA,11,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:31:00","07:26:00","08:11:00"
+"Ambulatorio Luis de Toro_subida","Ambulatorio Luis de Toro",2,40.0330275,-6.0846439,1,1,0,13,6,NA,NA,NA,NA,NA,NA,NA,1,"07:48:00","07:48:00","07:48:00","09:49:00","07:49:00","07:39:00",NA,NA,NA
+"Av. España-Cementerio_bajada","Av. España-Cementerio",3,40.020653,-6.098886,1,0,1,25,NA,24,NA,NA,NA,NA,NA,NA,0,"07:53:00","07:53:00","07:53:00",NA,NA,NA,"08:13:00","08:08:00","08:53:00"
+"Avda. de España_bajada","Avda. de España",5,40.023413,-6.096426,1,0,1,24,NA,23,NA,NA,NA,NA,NA,NA,0,"07:52:00","07:52:00","07:52:00",NA,NA,NA,"08:12:00","08:07:00","08:52:00"
+"Avda. de España_subida","Avda. de España",6,40.0225066,-6.0969302,1,0,1,7,NA,5,NA,NA,NA,NA,NA,NA,1,"07:37:00","07:37:00","07:37:00",NA,NA,NA,"07:25:00","07:20:00","08:05:00"
+"Avda. Juan Carlos I_subida","Avda. Juan Carlos I",11,40.0353323,-6.0852019,0,1,0,NA,8,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:53:00","07:53:00","07:43:00","07:40:00","07:35:00","08:20:00"
+"Avda. del Valle_bajada","Avda. del Valle",8,40.0296621,-6.0856836,0,0,1,NA,NA,18,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"08:06:00","08:01:00","08:46:00"
+"Avda. Extremadura_bajada","Avda. Extremadura",9,40.0388363,-6.0915269,0,1,1,NA,6,9,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:10:00","08:10:00","08:00:00","07:55:00","07:50:00","08:35:00"
+"Barrio El Pilar_bajada","Barrio El Pilar",13,40.0372947,-6.0898914,0,1,0,NA,8,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:12:00","08:12:00","08:02:00","07:53:00","07:48:00","08:33:00"
+"Avda. Salamanca_bajada","Avda. Salamanca",12,40.0393043,-6.0922488,0,1,1,NA,5,5,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:09:00","08:09:00","07:59:00","07:53:00","07:48:00","08:33:00"
+"Avda. Extremadura_subida","Avda. Extremadura",10,40.0389235,-6.0913562,0,1,1,NA,13,20,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:58:00","07:58:00","07:48:00","07:40:00","07:35:00","08:20:00"
+"Barrio El Pilar_subida","Barrio El Pilar",14,40.0371679,-6.08989169,0,1,0,NA,11,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:56:00","07:56:00","07:46:00",NA,NA,NA
+"Bomberos_bajada","Bomberos",15,40.002944,-6.1162133,1,0,0,32,NA,NA,NA,NA,NA,NA,NA,NA,0,"08:01:00","08:01:00","08:01:00",NA,NA,NA,NA,NA,NA
+"Calle Cabezabellosa_subida","Calle Cabezabellosa",18,40.0357621,-6.0827834,0,1,0,NA,7,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:51:00","07:51:00","07:41:00","07:26:00","07:21:00","08:06:00"
+"Carretera Trujillo_bajada","Carretera Trujillo",22,40.0149883,-6.100586,0,0,1,NA,NA,26,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:21:00","08:21:00","08:11:00","08:15:00","08:10:00","08:55:00"
+"Cañón de la Salud_bajada","Cañón de la Salud",21,40.0273214,-6.0935307,0,1,0,NA,16,NA,NA,NA,NA,NA,NA,NA,0,"07:30:00","07:30:00","07:30:00","10:21:00","08:21:00","08:11:00",NA,NA,NA
+"Carretera Trujillo_subida","Carretera Trujillo",23,40.0150682,-6.1007182,0,0,1,NA,NA,2,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:22:00","07:17:00","08:02:00"
+"C. salud San Miguel_subida","C. salud San Miguel",17,40.0254695,-6.094937,1,1,1,8,1,6,NA,NA,NA,NA,NA,NA,1,"07:39:00","07:39:00","07:39:00","09:38:00","07:38:00","07:28:00","07:26:00","07:21:00","08:06:00"
+"Calle San Cristóbal_bajada","Calle San Cristóbal",19,40.0264565,-6.097684,0,1,0,NA,21,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:33:00","07:33:00","07:23:00",NA,NA,NA
+"Catedral_subida","Catedral",25,40.027759,-6.090329,1,1,1,10,3,8,NA,NA,NA,NA,NA,NA,1,"07:42:00","07:42:00","07:42:00","09:40:00","07:40:00","07:30:00","07:28:00","07:23:00","08:08:00"
+"Catedral_bajada","Catedral",24,40.0282043,-6.0899393,1,1,1,21,15,20,NA,NA,NA,NA,NA,NA,0,"07:49:00","07:49:00","07:49:00","10:20:00","08:20:00","08:10:00","08:09:00","08:04:00","08:49:00"
+"Centro Cívico El Pilar_subida","Centro Cívico El Pilar",29,40.0382402,-6.08877254,0,1,0,NA,12,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:57:00","07:57:00","07:47:00",NA,NA,NA
+"Centro Cívico La Data_subida","Centro Cívico La Data",31,40.0419913,-6.0778676,1,0,0,23,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:58:00","07:58:00","07:58:00",NA,NA,NA,NA,NA,NA
+"C. salud San Miguel_bajada","C. salud San Miguel",16,40.0252075,-6.095246,1,0,1,23,NA,22,NA,NA,NA,NA,NA,NA,0,"07:51:00","07:51:00","07:51:00",NA,NA,NA,"08:11:00","08:06:00","08:51:00"
+"Céntrica_subida","Céntrica",27,40.0376623,-6.0790029,0,0,1,NA,NA,14,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:34:00","07:29:00","08:14:00"
+"Centro Cívico La Data_bajada","Centro Cívico La Data",30,40.0422666,-6.0776299,1,0,0,8,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:35:00","07:35:00","07:35:00",NA,NA,NA,NA,NA,NA
+"Céntrica_bajada","Céntrica",26,40.0375045,-6.0790854,0,0,1,NA,NA,15,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"08:02:00","07:57:00","08:42:00"
+"Centro Cívico El Pilar_bajada","Centro Cívico El Pilar",28,40.0381762,-6.0888315,0,1,0,NA,7,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:11:00","08:11:00","08:01:00","07:34:00","07:29:00","08:14:00"
+"Centro salud La Data_bajada","Centro salud La Data",33,40.0395578,-6.0804855,0,0,1,NA,NA,14,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"08:01:00","07:56:00","08:41:00"
+"Cámara de Comercio_bajada","Cámara de Comercio",20,40.0443252,-6.0686519,1,0,0,4,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:30:00","07:30:00","07:30:00",NA,NA,NA,NA,NA,NA
+"Ciudad Deportiva_bajada","Ciudad Deportiva",35,40.0422366,-6.0885622,0,1,0,NA,3,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:07:00","08:07:00","07:57:00","07:35:00","07:30:00","08:15:00"
+"Correos_bajada","Correos",45,40.0292222,-6.0878156,1,1,0,20,14,NA,NA,NA,NA,NA,NA,NA,0,"07:48:00","07:48:00","07:48:00","10:19:00","08:19:00","08:09:00",NA,NA,NA
+"Ciudad Jardín_subida","Ciudad Jardín",38,40.0460849,-6.08407952,0,1,1,NA,17,28,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"10:02:00","08:02:00","07:52:00","07:45:00","07:40:00","08:25:00"
+"Colegio Josefinas_bajada","Colegio Josefinas",39,40.042387,-6.083101,1,0,0,12,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:39:00","07:39:00","07:39:00",NA,NA,NA,NA,NA,NA
+"Ciudad Jardín_bajada","Ciudad Jardín",37,40.045703,-6.08413,0,1,0,NA,1,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:05:00","08:05:00","07:55:00",NA,NA,NA
+"Centro de menores_subida","Centro de menores",32,40.0479056,-6.0854077,0,1,1,NA,18,29,NA,NA,NA,NA,NA,NA,1,"07:58:00","07:58:00","07:58:00","10:04:00","08:04:00","07:54:00","07:46:00","07:41:00","08:26:00"
+"Ciudad Deportiva_subida","Ciudad Deportiva",36,40.0422594,-6.0883542,0,1,0,NA,15,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"10:00:00","08:00:00","07:50:00",NA,NA,NA
+"Dolores Ibárruri_bajada","Dolores Ibárruri",51,40.047711,-6.065183,1,0,0,3,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:28:00","07:28:00","07:28:00",NA,NA,NA,NA,NA,NA
+"Cruz Roja_subida","Cruz Roja",50,40.0413574,-6.09002641,0,1,0,NA,14,24,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:59:00","07:59:00","07:49:00","07:43:00","07:38:00","08:23:00"
+"Cristo de las Batallas_subida","Cristo de las Batallas",48,40.031307,-6.085575,1,1,0,12,5,NA,NA,NA,NA,NA,NA,NA,1,"07:46:00","07:46:00","07:46:00","09:47:00","07:47:00","07:37:00",NA,NA,NA
+"Correos_subida","Correos",46,40.0295228,-6.0872571,1,1,1,11,4,9,NA,NA,NA,NA,NA,NA,1,"07:45:00","07:45:00","07:45:00","09:43:00","07:43:00","07:33:00","07:29:00","07:24:00","08:09:00"
+"Cruz Roja_bajada","Cruz Roja",49,40.0411505,-6.0906157,0,1,0,NA,4,4,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:08:00","08:08:00","07:58:00","07:41:00","07:36:00","08:21:00"
+"Centro salud La Data_subida","Centro salud La Data",34,40.0395779,-6.0803836,0,0,1,NA,NA,15,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:35:00","07:30:00","08:15:00"
+"Colegio Josefinas_subida","Colegio Josefinas",40,40.0424103,-6.083177,1,0,0,19,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:54:00","07:54:00","07:54:00",NA,NA,NA,NA,NA,NA
+"Colonia Guadalupe_subida","Colonia Guadalupe",43,40.018668,-6.100633,1,0,1,5,NA,3,NA,NA,NA,NA,NA,NA,1,"07:35:00","07:35:00","07:35:00",NA,NA,NA,"07:23:00","07:18:00","08:03:00"
+"Colonia Guadalupe_bajada","Colonia Guadalupe",44,40.01825,-6.101278,1,0,1,26,NA,25,NA,NA,NA,NA,NA,NA,0,"07:54:00","07:54:00","07:54:00",NA,NA,NA,"08:14:00","08:09:00","08:54:00"
+"Colegio La Paz_bajada","Colegio La Paz",41,40.0433846,-6.0783291,1,0,0,10,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:37:00","07:37:00","07:37:00",NA,NA,NA,NA,NA,NA
+"Edificio Múltiples_bajada","Edificio Múltiples",52,40.042509,-6.071694,1,0,0,5,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:31:00","07:31:00","07:31:00",NA,NA,NA,NA,NA,NA
+"Cristo de las Batallas_bajada","Cristo de las Batallas",47,40.0317768,-6.0854811,1,1,0,19,13,NA,NA,NA,NA,NA,NA,NA,0,"07:47:00","07:47:00","07:47:00","10:17:00","08:17:00","08:07:00",NA,NA,NA
+"Estación de tren","Estación de tren",55,40.022698,-6.098901,0,1,0,NA,NA,NA,NA,NA,0,23,NA,NA,2,NA,NA,NA,"09:35:00","07:35:00","07:25:00","07:32:00","07:27:00","08:12:00"
+"Colegio La Paz_subida","Colegio La Paz",42,40.0433886,-6.0782099,1,0,0,21,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:56:00","07:56:00","07:56:00",NA,NA,NA,NA,NA,NA
+"Factoría Joven_bajada","Factoría Joven",56,40.0443062,-6.0928811,0,0,1,NA,NA,3,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:35:00","07:35:00","07:25:00","07:51:00","07:46:00","08:31:00"
+"Glorieta Cigüeñas_subida","Glorieta Cigüeñas",62,40.0164172,-6.1030956,1,0,0,4,NA,NA,NA,NA,NA,NA,NA,NA,1,"08:06:00","08:06:00","08:06:00",NA,NA,NA,NA,NA,NA
+"Félix R. de la Fuente_bajada","Félix R. de la Fuente",58,40.046166,-6.086246,0,0,1,NA,NA,1,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"07:49:00","07:44:00","08:29:00"
+"Estación autobuses_bajada","Estación autobuses",53,40.0328583,-6.0808015,0,0,1,NA,NA,17,NA,NA,NA,NA,NA,NA,0,"07:31:00","07:31:00","07:31:00",NA,NA,NA,"08:04:00","07:59:00","08:44:00"
+"Factoría Joven_subida","Factoría Joven",57,40.0443794,-6.0926069,0,0,1,NA,NA,25,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:42:00","07:37:00","08:22:00"
+"Guardería La Data_subida","Guardería La Data",64,40.0430845,-6.0770279,1,0,0,22,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:57:00","07:57:00","07:57:00",NA,NA,NA,NA,NA,NA
+"Gabriel y Galán 1_bajada","Gabriel y Galán 1",59,40.0463345,-6.0698177,1,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:25:00","07:25:00","07:25:00",NA,NA,NA,NA,NA,NA
+"Glorieta Cigüeñas_bajada","Glorieta Cigüeñas",61,40.0164172,-6.1030956,1,0,0,27,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:55:00","07:55:00","07:55:00",NA,NA,NA,NA,NA,NA
+"IES Gabriel y Galán_bajada","IES Gabriel y Galán",67,40.03936,-6.0824536,1,0,1,15,NA,13,NA,NA,NA,NA,NA,NA,0,"07:43:00","07:43:00","07:43:00",NA,NA,NA,"08:00:00","07:55:00","08:40:00"
+"Estación de autobuses_subida","Estación de autobuses",54,40.0327842,-6.0807866,0,0,1,NA,NA,12,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:32:00","07:27:00","08:12:00"
+"IES Parque Monfragüe_bajada","IES Parque Monfragüe",69,40.0391464,-6.0889447,0,0,1,NA,NA,10,NA,NA,NA,NA,NA,NA,0,"08:20:00","08:20:00","08:20:00",NA,NA,NA,"07:56:00","07:51:00","08:36:00"
+"Hospital","Hospital",66,40.0490084,-6.0854108,0,1,1,NA,NA,NA,NA,NA,19,0,30,0,2,"08:02:00","08:02:00","08:02:00","10:04:00","08:04:00","07:54:00","07:47:00","07:42:00","08:27:00"
+"IES Pérez Comendador_bajada","IES Pérez Comendador",71,40.041781,-6.085046,1,0,0,13,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:41:00","07:41:00","07:41:00",NA,NA,NA,NA,NA,NA
+"Guardería La Data_bajada","Guardería La Data",63,40.043353,-6.076665,1,0,0,9,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:36:00","07:36:00","07:36:00",NA,NA,NA,NA,NA,NA
+"IES Parque Monfragüe_subida","IES Parque Monfragüe",70,40.0392958,-6.0889224,0,0,1,NA,NA,19,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:39:00","07:34:00","08:19:00"
+"IES Gabriel y Galán_subida","IES Gabriel y Galán",68,40.0396344,-6.0824092,1,0,1,16,NA,16,NA,NA,NA,NA,NA,NA,1,"07:51:00","07:51:00","07:51:00",NA,NA,NA,"07:36:00","07:31:00","08:16:00"
+"IES Pérez Comendador_subida","IES Pérez Comendador",72,40.04197,-6.0847601,1,0,0,18,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:53:00","07:53:00","07:53:00",NA,NA,NA,NA,NA,NA
+"Hogar de Nazaret","Hogar de Nazaret",65,40.043086,-6.073821,1,0,0,NA,NA,NA,26,0,NA,NA,NA,NA,2,"08:02:00","08:02:00","08:02:00",NA,NA,NA,NA,NA,NA
+"La Chimenea_bajada","La Chimenea",77,40.0276987,-6.0973645,0,1,0,NA,20,NA,NA,NA,NA,NA,NA,NA,0,"08:00:00","08:00:00","08:00:00","09:32:00","07:32:00","07:22:00",NA,NA,NA
+"Iglesia San Miguel_bajada","Iglesia San Miguel",75,40.0253764,-6.0978609,0,1,0,NA,22,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:34:00","07:34:00","07:24:00",NA,NA,NA
+"Gabriel y Galán 2_bajada","Gabriel y Galán 2",60,40.047408,-6.067597,1,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:26:00","07:26:00","07:26:00",NA,NA,NA,NA,NA,NA
+"IES Virgen del Puerto_subida","IES Virgen del Puerto",74,40.043332,-6.085379,0,1,0,NA,16,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"10:01:00","08:01:00","07:51:00",NA,NA,NA
+"Los arcos_bajada","Los arcos",80,40.036812,-6.086049,0,1,0,NA,10,NA,NA,NA,NA,NA,NA,NA,0,"08:21:00","08:21:00","08:21:00","10:14:00","08:14:00","08:04:00","07:37:00","07:32:00","08:17:00"
+"Los Alamitos_subida","Los Alamitos",79,40.0412849,-6.0827133,1,0,1,17,NA,17,NA,NA,NA,NA,NA,NA,1,"07:52:00","07:52:00","07:52:00",NA,NA,NA,"07:37:00","07:32:00","08:17:00"
+"ITV_bajada","ITV",76,40.0043942,-6.1175942,1,0,0,31,NA,NA,NA,NA,NA,NA,NA,NA,0,"08:00:00","08:00:00","08:00:00",NA,NA,NA,NA,NA,NA
+"Los Alamitos _bajada","Los Alamitos ",78,40.041162,-6.082652,1,0,1,14,NA,12,NA,NA,NA,NA,NA,NA,0,"07:42:00","07:42:00","07:42:00",NA,NA,NA,"07:59:00","07:54:00","08:39:00"
+"Martín Palomino 1_subida","Martín Palomino 1",86,40.012725,-6.106677,1,0,0,3,NA,NA,NA,NA,NA,NA,NA,NA,1,"08:05:00","08:05:00","08:05:00",NA,NA,NA,NA,NA,NA
+"IES Virgen del Puerto_bajada","IES Virgen del Puerto",73,40.0433695,-6.0852192,0,1,0,NA,2,NA,NA,NA,NA,NA,NA,NA,0,"07:53:00","07:53:00","07:53:00","10:06:00","08:06:00","07:56:00",NA,NA,NA
+"Martín Palomino 1_bajada","Martín Palomino 1",85,40.0127734,-6.1067515,1,0,0,28,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:56:00","07:56:00","07:56:00",NA,NA,NA,NA,NA,NA
+"Palacio de Justicia_subida","Palacio de Justicia",94,40.046086,-6.0890051,0,0,1,NA,NA,26,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:43:00","07:38:00","08:23:00"
+"Martín Palomino 2_subida","Martín Palomino 2",88,40.0104074,-6.1091246,1,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,1,"08:04:00","08:04:00","08:04:00",NA,NA,NA,NA,NA,NA
+"Martín Palomino 2_bajada","Martín Palomino 2",87,40.010953,-6.108586,1,0,0,29,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:57:00","07:57:00","07:57:00",NA,NA,NA,NA,NA,NA
+"Pablo Iglesias_subida","Pablo Iglesias",92,40.0426469,-6.0804457,1,0,0,20,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:55:00","07:55:00","07:55:00",NA,NA,NA,NA,NA,NA
+"Parque Coronación_subida","Parque Coronación",96,40.0382816,-6.0826314,1,0,0,15,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:50:00","07:50:00","07:50:00",NA,NA,NA,NA,NA,NA
+"Los Pinos_bajada","Los Pinos",81,40.0410481,-6.0852647,0,0,1,NA,NA,11,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:14:00","08:14:00","08:04:00","07:58:00","07:53:00","08:38:00"
+"Martín Palomino 3_bajada","Martín Palomino 3",89,40.008796,-6.110757,1,0,0,30,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:58:00","07:58:00","07:58:00",NA,NA,NA,NA,NA,NA
+"PIR Los Monjes 1_subida","PIR Los Monjes 1",99,40.0137307,-6.0924984,0,0,1,NA,NA,1,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:21:00","07:16:00","08:01:00"
+"Los Pitufos_subida","Los Pitufos",84,40.0359896,-6.0781173,0,0,1,NA,NA,13,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:33:00","07:28:00","08:13:00"
+"PIR Los Monjes 2","PIR Los Monjes 2",100,40.0126744,-6.0913014,0,0,1,NA,NA,NA,NA,NA,NA,NA,0,28,2,NA,NA,NA,NA,NA,NA,"07:20:00","07:15:00","08:00:00"
+"Parque infantil de tráfico_subida","Parque infantil de tráfico",97,40.0357248,-6.0859228,0,1,0,NA,9,NA,NA,NA,NA,NA,NA,NA,1,"07:50:00","07:50:00","07:50:00","09:54:00","07:54:00","07:44:00",NA,NA,NA
+"Los Pitufos_bajada","Los Pitufos",83,40.036076,-6.078357,0,0,1,NA,NA,16,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"08:03:00","07:58:00","08:43:00"
+"Palacio de Justicia_bajada","Palacio de Justicia",93,40.0460098,-6.0895419,0,0,1,NA,NA,2,NA,NA,NA,NA,NA,NA,0,"07:55:00","07:55:00","07:55:00",NA,NA,NA,"07:50:00","07:45:00","08:30:00"
+"Pablo Iglesias_bajada","Pablo Iglesias",91,40.0426469,-6.0804457,1,0,0,11,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:38:00","07:38:00","07:38:00",NA,NA,NA,NA,NA,NA
+"Parque Coronación_bajada","Parque Coronación",95,40.037007,-6.0830996,1,0,0,16,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:44:00","07:44:00","07:44:00",NA,NA,NA,NA,NA,NA
+"Los Pinos_subida","Los Pinos",82,40.041006,-6.0855886,0,0,1,NA,NA,18,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:38:00","07:33:00","08:18:00"
+"Plaza de toros_subida","Plaza de toros",105,40.0365108,-6.0903138,0,1,0,NA,10,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:55:00","07:55:00","07:45:00",NA,NA,NA
+"PIR Los Monjes 1_bajada","PIR Los Monjes 1",98,40.0137881,-6.0927063,0,0,1,NA,NA,27,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:54:00","07:54:00","07:44:00","08:16:00","08:11:00","08:56:00"
+"Martín Palomino 3_subida","Martín Palomino 3",90,40.008582,-6.110836,1,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,1,"08:03:00","08:03:00","08:03:00",NA,NA,NA,NA,NA,NA
+"Pl. del Olivar-Multicines_bajada","Pl. del Olivar-Multicines",102,40.0409785,-6.0784177,1,0,0,7,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:34:00","07:34:00","07:34:00",NA,NA,NA,NA,NA,NA
+"Plaza de toros_bajada","Plaza de toros",104,40.0365803,-6.09047,0,1,0,NA,9,NA,NA,NA,NA,NA,NA,NA,0,"07:59:00","07:59:00","07:59:00","10:13:00","08:13:00","08:03:00",NA,NA,NA
+"Puerta del Sol_subida","Puerta del Sol",113,40.0305987,-6.086084,0,0,1,NA,NA,10,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,"09:31:00","07:31:00","07:21:00","07:30:00","07:25:00","08:10:00"
+"Pl. del Olivar-Multicines_subida","Pl. del Olivar-Multicines",103,40.041004,-6.078589,1,0,0,24,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:59:00","07:59:00","07:59:00",NA,NA,NA,NA,NA,NA
+"Puerta Berrozana_bajada","Puerta Berrozana",110,40.030483,-6.092303,0,1,0,NA,18,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:30:00","07:30:00","07:20:00","07:27:00","07:22:00","08:07:00"
+"Policía Local_subida","Policía Local",107,40.0397995,-6.0770172,1,0,0,25,NA,NA,NA,NA,NA,NA,NA,NA,1,"08:01:00","08:01:00","08:01:00",NA,NA,NA,NA,NA,NA
+"Universidad_bajada","Universidad",116,40.0350189,-6.0847062,1,1,0,17,11,NA,NA,NA,NA,NA,NA,NA,0,"07:45:00","07:45:00","07:45:00","10:15:00","08:15:00","08:05:00",NA,NA,NA
+"Piscina Bioclimática_subida","Piscina Bioclimática",101,40.0453148,-6.0858251,0,0,1,NA,NA,27,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:44:00","07:39:00","08:24:00"
+"Puente Trujillo_bajada","Puente Trujillo",108,40.0269796,-6.0928833,1,0,1,22,NA,21,NA,NA,NA,NA,NA,NA,0,"07:50:00","07:50:00","07:50:00",NA,NA,NA,"08:10:00","08:05:00","08:50:00"
+"Puerta de Coria 1_bajada","Puerta de Coria 1",111,40.028909,-6.0953904,0,1,0,NA,17,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"10:22:00","08:22:00","08:12:00",NA,NA,NA
+"Policía Local_bajada","Policía Local",106,40.0398417,-6.076916,1,0,0,6,NA,NA,NA,NA,NA,NA,NA,NA,0,"07:33:00","07:33:00","07:33:00",NA,NA,NA,NA,NA,NA
+"Puerta Talavera_bajada","Puerta Talavera",114,40.0287452,-6.0886793,0,0,1,NA,NA,19,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,"08:08:00","08:03:00","08:48:00"
+"Puente Trujillo_subida","Puente Trujillo",109,40.0269901,-6.0920049,1,1,1,9,2,7,NA,NA,NA,NA,NA,NA,1,"07:41:00","07:41:00","07:41:00","09:39:00","07:39:00","07:29:00","07:27:00","07:22:00","08:07:00"
+"Sociosanitario","Sociosanitario",115,40.0059823,-6.1133737,1,0,0,NA,NA,NA,0,33,NA,NA,NA,NA,2,"08:02:00","08:02:00","08:02:00",NA,NA,NA,NA,NA,NA
+"Puerta de Coria 2_bajada","Puerta de Coria 2",112,40.0290328,-6.0954245,0,1,0,NA,19,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:31:00","07:31:00","07:21:00",NA,NA,NA
+"Universidad_subida","Universidad",117,40.035965,-6.084159,1,0,0,14,NA,NA,NA,NA,NA,NA,NA,NA,1,"07:49:00","07:49:00","07:49:00","","","",NA,NA,NA
+"Cruz Roja Salamanca_subida","Cruz Roja Salamanca",119,40.0420151,-6.09138,0,0,1,NA,NA,24,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,"07:41:00","07:36:00","08:21:00"
+"Cruz Roja Salamanca_bajada","Cruz Roja Salamanca",118,40.0416959,-6.091311,0,0,1,NA,NA,4,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"09:47:00","07:47:00","07:37:00","07:52:00","07:47:00","08:32:00"
