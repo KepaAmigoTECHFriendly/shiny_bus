@@ -413,9 +413,9 @@ server <- function(input, output, session) {
       df_datos_bus <- datos_bus()
 
       if(input$temporalidad_tiempos == "Lunes-Viernes"){
-        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv", sep = ",")
+        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv", sep = ",", stringsAsFactors = FALSE)
       }else{
-        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv", sep = ",")
+        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv", sep = ",", stringsAsFactors = FALSE)
       }
 
       # Linea 1
