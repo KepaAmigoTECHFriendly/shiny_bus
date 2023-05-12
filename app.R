@@ -274,7 +274,7 @@ server <- function(input, output, session) {
   referencia_L_V <- reactive({
 
     # REFERENCIAS
-    df_referencia_paradas_L_V <- read.csv("REFERENCIA_paradas_bus_plasencia_L_V.csv",sep = ",", stringsAsFactors = FALSE)
+    df_referencia_paradas_L_V <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv",sep = ",", stringsAsFactors = FALSE)
     df <- df_referencia_paradas_L_V
     return(df)
 
@@ -282,7 +282,7 @@ server <- function(input, output, session) {
 
   referencia_S_D_F <- reactive({
 
-    df_referencia_paradas_S_D_F <- read.csv("REFERENCIA_paradas_bus_plasencia_S_D_F.csv",sep = ",", stringsAsFactors = FALSE)
+    df_referencia_paradas_S_D_F <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv",sep = ",", stringsAsFactors = FALSE)
 
     df <- df_referencia_paradas_S_D_F
     return(df)
