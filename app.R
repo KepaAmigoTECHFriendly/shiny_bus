@@ -247,7 +247,7 @@ server <- function(input, output, session) {
       # Referencia de L - V
       df_referencia_L_V <-  datos$df_referencia_L_V
       # Escritura CSV en APP SHINY
-      write.table(df_referencia_L_V,"/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv", row.names = FALSE)
+      write.csv(df_referencia_L_V,"/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv", row.names = FALSE)
       # Escritura CSV en CARPETA COMPARTIDA para programa tiempos de llegada
       df_csv <- df_referencia_L_V[,c("id","Nombre_plataforma","latitud","longitud","linea_1","linea_2","linea_3","sentido")]
       colnames(df_csv)[2] <- "name"
