@@ -431,6 +431,7 @@ server <- function(input, output, session) {
   output$mapa <- renderLeaflet({
 
     df_datos_bus <- datos_bus()
+    shinyjs::logjs(df_datos_bus)
 
     # Ploteo leaflet marquesinas
     leaflet(df_datos_bus) %>%
