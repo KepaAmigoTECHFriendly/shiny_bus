@@ -99,6 +99,15 @@ ui <- fluidPage(
                             br(),
                             tags$hr(),
                             actionButton("boton_guardar_en_BBDD", "Guardar en BBDD"),
+                            tags$hr(),
+                            downloadButton("download_csv_referencias", "Descargar CSV"),
+                            tags$hr(),
+                            fileInput("fichero_csv", "Importar fichero CSV",
+                                      accept = c(
+                                        "text/csv",
+                                        "text/comma-separated-values,text/plain",
+                                        ".csv")
+                            ),
                             width=3
                           ),
 
@@ -200,22 +209,41 @@ server <- function(input, output, session) {
   # ==================================
   # Cambios dinámicos
 
+  observeEvent(input$fichero_csv, {
+    csv <- input$fichero_csv
+    if (is.null(csv)){
+      return(NULL)
+    }
+    csv <- read.csv(csv$datapath,sep = ",", stringsAsFactors = FALSE)
+
+    if(input$temporalidad == "Lunes-Viernes"){
+      datos$df_referencia_L_V <- csv
+    }else{
+      datos$df_referencia_S_D_F <- csv
+    }
+  })
+
   observeEvent(input$temporalidad, {
     if(input$temporalidad == "Lunes-Viernes"){
       shinyjs::hide("referencia_paradas_S_D_F")
       shinyjs::hide("2")
       shinyjs::show("referencia_paradas_L_V")
       shinyjs::show("1")
+      datos$descarga_csv = datos$df_referencia_L_V
+      datos$nombre_csv = "REFERENCIA_paradas_bus_plasencia_L_V.csv"
     }else{
       shinyjs::show("referencia_paradas_S_D_F")
       shinyjs::show("2")
       shinyjs::hide("referencia_paradas_L_V")
       shinyjs::hide("1")
+      datos$descarga_csv = datos$df_referencia_S_D_F
+      datos$nombre_csv = "REFERENCIA_paradas_bus_plasencia_S_D_F.csv"
     }
   })
 
 
-  datos <- reactiveValues(df_referencia_L_V = df_referencia_paradas_L_V, df_referencia_S_D_F = df_referencia_paradas_S_D_F, flag_calculo = FALSE)
+  datos <- reactiveValues(df_referencia_L_V = df_referencia_paradas_L_V, df_referencia_S_D_F = df_referencia_paradas_S_D_F, flag_calculo = FALSE, descarga_csv = NULL, nombre_csv = NULL)
+
 
   #Captura datos modificados
 
@@ -316,6 +344,17 @@ server <- function(input, output, session) {
                                                                    scrollX=TRUE,
                                                                    scrollCollapse=TRUE))
   },cache = FALSE)
+
+
+  #Descarga de datos
+  output$download_csv_referencias <- downloadHandler(
+
+    filename = function(){datos$nombre_csv},
+    content  = function(file) {
+      df <- datos$descarga_csv
+      write.csv(df, file, eol="\n", sep = ",", row.names = FALSE)
+    }
+  )
 
 
 
