@@ -29,6 +29,9 @@ resultado_peticion_token <- httr::content(post)
 auth_thb <- paste("Bearer",resultado_peticion_token$token)
 # ------------------------------------------------------------------------------
 
+df_referencia_paradas_L_V <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv",sep = ",", stringsAsFactors = FALSE)
+df_referencia_paradas_S_D_F <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv",sep = ",", stringsAsFactors = FALSE)
+
 
 # TIEMPOS
 # 1 - Número bus
@@ -212,7 +215,7 @@ server <- function(input, output, session) {
   })
 
 
-  datos <- reactiveValues(df_referencia_L_V = NULL, df_referencia_S_D_F = NULL, flag_calculo = FALSE)
+  datos <- reactiveValues(df_referencia_L_V = df_referencia_paradas_L_V, df_referencia_S_D_F = df_referencia_paradas_S_D_F, flag_calculo = FALSE)
 
   #Captura datos modificados
 
@@ -274,19 +277,16 @@ server <- function(input, output, session) {
   referencia_L_V <- reactive({
 
     # REFERENCIAS
-    df_referencia_paradas_L_V <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv",sep = ",", stringsAsFactors = FALSE)
+    df_referencia_paradas_L_V <- datos$df_referencia_L_V
     df <- df_referencia_paradas_L_V
     return(df)
-
   })
 
   referencia_S_D_F <- reactive({
 
-    df_referencia_paradas_S_D_F <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv",sep = ",", stringsAsFactors = FALSE)
-
+    df_referencia_paradas_S_D_F <- datos$df_referencia_S_D_F
     df <- df_referencia_paradas_S_D_F
     return(df)
-
   })
 
   # ==================================
@@ -413,9 +413,9 @@ server <- function(input, output, session) {
       df_datos_bus <- datos_bus()
 
       if(input$temporalidad_tiempos == "Lunes-Viernes"){
-        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_L_V.csv", sep = ",", stringsAsFactors = FALSE)
+        df_paradas <- datos$df_referencia_L_V
       }else{
-        df_paradas <- read.csv("/extra_data/REFERENCIA_paradas_bus_plasencia_S_D_F.csv", sep = ",", stringsAsFactors = FALSE)
+        df_paradas <- datos$df_referencia_S_D_F
       }
 
       # Linea 1
